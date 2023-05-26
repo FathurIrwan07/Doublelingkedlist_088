@@ -71,3 +71,13 @@ void DoubleLingkedList::addNode() {
 	current->next = newNode; // step 7
 }
 
+bool DoubleLingkedList::search(int rolNo, Node** previous, Node** current) {
+	*previous = NULL; //step 1.a
+	*current = START; //step 1.b
+	while (*current != NULL && (*current)->noMhs != rolNo) {	//step1.c
+		*previous = *current; //step 1.d
+		*current = (*current); //step 1.e
+	}
+	return (*current != NULL);
+}
+
