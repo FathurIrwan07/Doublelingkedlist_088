@@ -11,5 +11,7 @@ public:
 };
 
 class DoubleLingkedList {
+private:
+	Node* START = NULL;
 
 };
