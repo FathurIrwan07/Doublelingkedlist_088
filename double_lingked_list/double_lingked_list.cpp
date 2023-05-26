@@ -13,5 +13,17 @@ public:
 class DoubleLingkedList {
 private:
 	Node* START = NULL;
+public:
 
+	void addNode();
+	bool search(int rolNo, Node** previous, Node** current);
+	bool deNode(int rollNo);
+	bool listEmpty();
+	void traverse();
+	void revtraverse();
+	void hapus();
+	void searchData();
 };
+
+void DoubleLingkedList::addNode() {
+	
