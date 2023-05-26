@@ -26,4 +26,11 @@ public:
 };
 
 void DoubleLingkedList::addNode() {
+	int nim;
+	string nm;
+	cout << "\nEnter the Roll number of the student : ";
+	cin >> nim;
+	cout << "\nEnter the  name of the student : ";
+	cin >> nm;
+
 	
