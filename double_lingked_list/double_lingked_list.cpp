@@ -96,3 +96,7 @@ bool DoubleLingkedList::delNode(int rollNo) {
 	delete current;	//step 4
 	return true;
 }
+
+bool DoubleLingkedList::listEmpty() {
+	return (START == NULL);
+}
