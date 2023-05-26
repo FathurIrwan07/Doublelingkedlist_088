@@ -10,3 +10,6 @@ public:
 	Node* prev;
 };
 
+class DoubleLingkedList {
+
+};
